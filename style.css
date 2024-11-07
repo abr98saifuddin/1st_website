@@ -9,7 +9,6 @@
     align-items: center;
     background-image: linear-gradient(rgb(2, 61, 121), rgb(28, 138, 248));
     padding: 10px 0;
-    /* background-attachment: fixed; */
 }
 .navigation_bar > div > h2{
     font-size: 40px;
@@ -91,8 +90,7 @@
     color: white;
 }
 .main_area_container{
-    padding: 110px;
-    
+    padding: 110px;   
 }
 .main_area_container > h4{
     font-size: 25px;
@@ -127,8 +125,7 @@
 }
 .main_area_container > button:hover{
     background-color: rgba(68, 11, 11, 0.219);
-    border: 3px solid rgba(2, 60, 117, 0.26);
-    
+    border: 3px solid rgba(2, 60, 117, 0.26);   
 }
 .fontawesome_icon > a > i{
     color: white;
@@ -148,9 +145,7 @@
     background-color: rgba(0, 128, 0, 0.185);
     border:2px solid white;
     transform: rotate(360deg);
-}
 
-/* Main Area */
 /* First Section code starts here */
 
 .first_section_parent{
@@ -159,7 +154,6 @@
     justify-content: space-between;
     margin:50px auto;
 }
-
 .first_child_icon{
     font-size: 50px;
 }
@@ -179,7 +173,9 @@
 .first_section_child > p{
     font-size: 20px;
 }
+
 /* Second Section code starts here */
+
 #second_section{
     margin: 50px 0;
 }
@@ -240,7 +236,9 @@
     background-color: rgb(114, 2, 2);
     box-shadow: 3px 3px 8px black;
 }
+
 /* Third Section code starts here */
+
 .service_area{
     background-color: rgb(248, 242, 242);
     padding: 50px 0;
@@ -286,7 +284,9 @@
 .every_service_child p{
     font-size: 18px;
 }
+
 /* Fourth Section starts here */
+
 #pricing_area{
     background-color: whitesmoke;
     padding: 50px 0;
@@ -309,7 +309,6 @@
     text-align: center;
     box-shadow: 5px 5px 10px gray;
 }
-
 .pricing_image > img{
     max-width: 100%;
 }
@@ -361,7 +360,9 @@
     background-color: rgb(243, 159, 159);
     color: white;
 }
+
 /* Fifth Section code starts here */
+
 #fifth_section{ 
     background-color: #FFE4C4;
     padding: 50px;
@@ -386,7 +387,6 @@
     width: 1000px;
     margin: auto;
     padding: 15px;
-    
 }
 .testi_child{
     display: flex;
@@ -412,7 +412,9 @@
 .given_rate{
     color: #FAA64C;
 }
+
 /* Sixth Section code starts here */
+
 #sixth_section{
     background-image: url('images/parallax.jpg');
     background-repeat: no-repeat;
@@ -421,7 +423,6 @@
     margin-top: 50px;
     margin-bottom: 50px;
     background-attachment: fixed;
-    
 }
 .paralux_parent{
     width: 1000px;
@@ -432,7 +433,6 @@
     text-align: center;
     padding: 90px 0;
     color: white;
-
 }
 .paralux_child i{
     font-size: 30px;
@@ -441,7 +441,9 @@
     font-size: 35px;
     margin: 10px 0;
 }
+
 /* seventh Section code starts here */
+
 #blog_container{
     width: 1000px;
     margin: 50px auto;
@@ -492,7 +494,9 @@
     margin-top: 10px;
     color: rgb(165, 148, 127);
 }
+
 /* Eight Section code starts here */
+
 .contact_contianer{
     width: 1000px;
     margin: auto;
@@ -507,7 +511,6 @@
 }
 .form_name_emil_parent h3{
     margin: 50px 0px 5px 20px;
-
 }
 .form_name_emil_parent input{
     width: 230px;
@@ -565,7 +568,9 @@
     font-size: 18px;
     font-weight: bold;
 } 
+
 /* Footer Part starts here */
+
 footer{
    background-color: #003167; 
    margin: 50px 0;
