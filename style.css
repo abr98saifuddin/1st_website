@@ -9,7 +9,7 @@
     align-items: center;
     background-image: linear-gradient(rgb(2, 61, 121), rgb(28, 138, 248));
     padding: 10px 0;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 .navigation_bar > div > h2{
     font-size: 40px;
@@ -29,7 +29,7 @@
 }
 .navigation_bar>ul>li>a{
     text-decoration: none;
-    border-right: 1px solid black;
+    border-right: 2px solid rgb(184, 180, 180);
     color: white;
     font-size: 25px;
     font-weight: bold;
@@ -38,14 +38,14 @@
     transition: 0.5s;    
 }
 .navigation_bar>ul>li:first-child>a{
-    border-left: 1px solid black;
+    border-left: 2px solid rgb(184, 180, 180);
 }
 
 /* Navigation Area code starts here */
 
 .nav_List{
-    background-color: dodgerblue;
-    margin-top: 18px;
+    background-image: linear-gradient(rgb(2, 61, 121), rgb(28, 138, 248));
+    margin-top: 19px;
     position: absolute; 
     font-size: 22px;
     width:180px;
@@ -55,10 +55,11 @@
     visibility: hidden;
     transform: scaleY(0);
     transform-origin: top center;
+    box-shadow: 6px 6px 5px black;
 }
 .nav_List > li{
     list-style: none;
-    border: 2px solid black;
+    border: 1px solid rgb(184, 180, 180);
     padding: 8px 0;
 }
 .nav_List > li:hover{
@@ -66,7 +67,7 @@
     cursor: pointer;
 }
 .nav_List > li:first-child{
-    border-top: 1px solid black;
+    border-top: 2px solid rgb(184, 180, 180);
 }
 .nav_List > li > a{
     text-decoration:none;
@@ -182,20 +183,24 @@
 #second_section{
     margin: 50px 0;
 }
+.smart_area{
+    width: 400px;
+    margin: auto;
+    position: relative;
+}
 .smart_area > h2{
     font-size: 70px;
     text-align: center;
     margin-bottom: 25px;
-    position: relative;
 }
-.smart_area > h2::after{
+.smart_area > h2::after {
     content: '';
-    top: 77px;
-    left: 930px;
-    width: 170px;
+    top: 78px;
+    left: 78px;
+    width: 242px;
     height: 5px;
     background-color: rgb(196, 6, 6);
-    position: absolute;
+    position: absolute;;
 }
 .smart_area_parent{
     width: 1000px;
@@ -540,7 +545,7 @@
     color: black;
 }
 .form_address_parent{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     display: flex;
     justify-content: space-between;
 }
@@ -560,10 +565,73 @@
     font-size: 18px;
     font-weight: bold;
 } 
-
-
-
-
+/* Footer Part starts here */
+footer{
+   background-color: #003167; 
+   margin: 50px 0;
+}
+.footer_container{
+    width:1000px;
+    margin: auto;
+}
+.footer_first_parent{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_first_child{
+    width: 220px;
+    color: gray;
+    overflow: hidden;
+}
+.footer_first_child h3{
+    color: white;
+    margin: 50px 0 30px 0;
+}
+.footer_first_parent >.footer_first_child:nth-child(1) p{
+    margin-bottom: 15px;
+}
+.footer_first_parent .footer_first_child i{
+    color: white;
+}
+.footer_first_parent >.footer_first_child:nth-child(2) p{
+    margin-bottom: 15px;
+}
+.footer_first_parent >.footer_first_child:nth-child(3) p{
+    margin-bottom: 15px;
+}
+.footer_first_parent >.footer_first_child:nth-child(4) p{
+    margin-bottom: 15px;
+}
+.footer_first_parent >.footer_first_child:nth-child(4) a{
+    text-decoration: none;
+    color: brown;
+}
+hr{
+    margin: 5px 0 10px 0;
+}
+.footer_second_parent ul{
+    display: flex;
+    justify-content: center;
+}
+.footer_second_parent ul li{
+    list-style-type: none;
+}
+.footer_second_parent ul li a{
+    text-decoration: none;
+    margin: 30px;
+    font-size: 20px;
+    color: rgb(170, 169, 169);
+    font-weight: bold;
+}
+.footer_second_parent p{
+    color: gray;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom:10px
+}
+.footer_second_parent span{
+    color: brown;
+}
 
 
 
